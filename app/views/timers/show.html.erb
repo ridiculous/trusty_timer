@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @timer.start_time %>
+</p>
+
+<p>
+  <strong>Stop time:</strong>
+  <%= @timer.stop_time %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @timer.person_id %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @timer.notes %>
+</p>
+
+<p>
+  <strong>Created by:</strong>
+  <%= @timer.created_by %>
+</p>
+
+<p>
+  <strong>Updated by:</strong>
+  <%= @timer.updated_by %>
+</p>
+
+<%= link_to 'Edit', edit_timer_path(@timer) %> |
+<%= link_to 'Back', timers_path %>

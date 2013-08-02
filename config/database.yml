@@ -1,0 +1,17 @@
+development:
+  host: localhost
+  adapter: postgresql
+  database: trusty_timer_development
+  pool: 5
+  username: postgres
+  password: access
+  timeout: 5000
+
+test:
+  host: localhost
+  adapter: postgresql
+  database: trusty_timer_test
+  pool: 5
+  username: postgres
+  password: access
+  timeout: 5000

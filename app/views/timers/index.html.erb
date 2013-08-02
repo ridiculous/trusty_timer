@@ -1,0 +1,29 @@
+<table>
+  <thead>
+  <tr>
+    <th>Start time</th>
+    <th>Stop time</th>
+    <th>Notes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @timers.each do |timer| %>
+      <tr>
+        <td><%= timer.start_time %></td>
+        <td><%= timer.stop_time %></td>
+        <td><%= timer.notes %></td>
+        <td><%= link_to 'Show', timer %></td>
+        <td><%= link_to 'Edit', edit_timer_path(timer) %></td>
+        <td><%= link_to 'Destroy', timer, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to '+ Timer', new_timer_path %> | <%= link_to('+ Person', new_person_path) %>

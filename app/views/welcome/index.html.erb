@@ -1,0 +1,5 @@
+<%= form_tag(welcome_index_path, method: :post) do %>
+    <%= email_field_tag(:email) %>
+    <%= password_field_tag(:password) %>
+    <%= submit_tag('Log in') %>
+<% end %>

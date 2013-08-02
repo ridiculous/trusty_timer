@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start_time: 2013-08-01 20:31:43
+  stop_time: 2013-08-01 20:31:43
+  person_id: 1
+  notes: MyString
+  created_by: 1
+  updated_by: 1
+
+two:
+  start_time: 2013-08-01 20:31:43
+  stop_time: 2013-08-01 20:31:43
+  person_id: 1
+  notes: MyString
+  created_by: 1
+  updated_by: 1
