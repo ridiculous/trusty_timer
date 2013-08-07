@@ -11,4 +11,12 @@ class ApplicationController < ActionController::Base
   def current_user
     @current_user ||= User.find(session[:user_token] / 3) if session[:user_token]
   end
+
+  private
+
+  def authenticate_user
+    if !session || !current_user
+      redirect_to(login_path, alert: 'Please sign in first') and return
+    end
+  end
 end

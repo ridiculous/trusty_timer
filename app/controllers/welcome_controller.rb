@@ -1,7 +1,6 @@
 class WelcomeController < ApplicationController
 
   def index
-
   end
 
   # POST   /welcome         welcome#create

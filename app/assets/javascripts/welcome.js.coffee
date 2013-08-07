@@ -4,5 +4,8 @@
 
 jUtils.addEvent window, 'load', ()->
   email = document.getElementById('email')
+
   if email
     email.focus()
+
+  bindDeleteLinks()

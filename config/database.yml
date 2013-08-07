@@ -15,3 +15,12 @@ test:
   username: postgres
   password: access
   timeout: 5000
+
+production:
+  host: localhost
+  adapter: postgresql
+  database: trusty_timer_production
+  pool: 5
+  username: postgres
+  password: access
+  timeout: 5000

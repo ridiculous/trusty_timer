@@ -8,6 +8,7 @@ TrustyTimer::Application.routes.draw do
   root 'welcome#index'
 
   get 'bye' => 'welcome#logout'
+  get 'login' => 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
