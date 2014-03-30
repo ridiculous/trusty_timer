@@ -50,4 +50,4 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'box-cutter', git: 'https://github.com/ridiculous/box-cutter'
+gem 'box-cutter', path: '../gems/box-cutter'

@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/ridiculous/box-cutter
-  revision: 8effc16863cb3e44b0e1517f6424f71ed14e8a54
+PATH
+  remote: ../gems/box-cutter
   specs:
     box-cutter (0.0.3)
 

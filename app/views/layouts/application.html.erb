@@ -12,7 +12,7 @@
   <header style="padding: 0 10px 10px 10px;">
     <h1>TrustyTimer</h1>
   </header>
-  <%= box(title: @title || 'Welcome', color: 'blue', links: app_links, padding: 0) do %>
+  <%= box(title: @title || 'Welcome', color: 'grey', links: app_links, padding: 0) do %>
       <%= content_tag(:div, flash_message_helper, class: 'flash-msg') if request.flash.any? %>
       <div style="padding:20px">
         <%= yield %>
